@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  agda:
+    build: 
+      context: ./dockerfiles/agda/
+      dockerfile: Dockerfile
+    volumes:
+      - ./dockerfiles/agda/volumes/:/app
+    tty: true
