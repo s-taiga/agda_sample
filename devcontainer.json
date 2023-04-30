@@ -1,5 +1,9 @@
 {
-    "extensions": [
-        "banacorn.agda-mode"
-    ]
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "banacorn.agda-mode"
+            ]
+        }
+    }
 }
